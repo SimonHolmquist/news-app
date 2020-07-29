@@ -14,7 +14,7 @@ function App() {
         <Fragment>
           <Switch>
             <Route exact path='/'>
-              <Header />
+              <Header/>
             </Route>
             <Route exact path='/header'>
               <Header style={"bg-primary text-white"} />
